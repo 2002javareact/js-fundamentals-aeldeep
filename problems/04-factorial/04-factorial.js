@@ -6,20 +6,18 @@ Use recursion to compute and return the factorial of someNum.  */
 let i = 1
 function factorial(sumNum) 
 {
-    
     if (sumNum===0) 
     {
         i= 0
     }
-    
     for (; sumNum>0; sumNum--) 
     {
         i*=sumNum
         
     }
 }
-    factorial(10)
 
+    factorial(6)
     console.log(i);
     
   

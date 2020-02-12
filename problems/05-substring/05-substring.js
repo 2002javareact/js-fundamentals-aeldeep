@@ -9,12 +9,10 @@ try
 {
 function substring(someStr, startIndex, endIndex) 
     {
-
             n=someStr.substring(startIndex, endIndex)
             return n            
-      
     }
-    substring(nan, 0 ,3)
+    substring('nan', 0 ,2)
 } catch (e) 
 {
     throw ('please enter strings only')

@@ -2,8 +2,7 @@
 Define function: fib(n) 
 Return the nth number in the fibonacci sequence. */
 function fib(n)
-{
-    //we need to handel the first 3 position (0,1,2)
+{ //we need to handel the first 3 position (0,1,2)
     if (n===0|| n===1) 
     {
         return n
@@ -22,7 +21,5 @@ function fib(n)
         y=z
     }
     return y
-
-
 }
-console.log(fib(500));
+console.log(fib(600));

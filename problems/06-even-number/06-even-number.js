@@ -2,8 +2,10 @@
 Define function: isEven(someNum)
 Return true if even, false if odd.
 Do not use % operator. */
-// +2  *2  
+//we can do it with 2 different ways +2  *2  
+
 let n = 0
+
 /*function isEven(someNum) 
 {
    for (let i = 0; n <someNum; i++) 
