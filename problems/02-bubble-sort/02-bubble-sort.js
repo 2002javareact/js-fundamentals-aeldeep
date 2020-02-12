@@ -2,7 +2,7 @@
 Define function: bubbleSort(numArray)
 Use the bubble sort algorithm to sort the array.
 Return the sorted array. */
-let a=[1,5,2,-1,15,0,80,80]
+let a=[6,1,5,2,-1,15,0,80,80]
 //Descending  
 function bubbleSort(numArray) 
 {//مصفوفتين بيقارن الاكبر وبيعينه فى متغير مؤقت  2for loops
