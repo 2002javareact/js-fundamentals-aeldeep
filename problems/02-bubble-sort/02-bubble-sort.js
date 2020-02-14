@@ -46,6 +46,7 @@ function bubbleSorta(numArray)
 //Ascending 
   bubbleSorta(a)
     console.log(a);
+    
    
     
   
