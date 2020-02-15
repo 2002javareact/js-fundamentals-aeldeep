@@ -2,7 +2,8 @@
 Define function: bubbleSort(numArray)
 Use the bubble sort algorithm to sort the array.
 Return the sorted array. */
-let a=[6,1,5,2,-1,15,0,80,80]
+let a=[6,1,5,80,-1,15,0,80,2]
+let b=[6,1,5,80,-1,15,0,80,2]
 //Descending  
 function bubbleSort(numArray) 
 {//مصفوفتين بيقارن الاكبر وبيعينه فى متغير مؤقت  2for loops
@@ -25,16 +26,16 @@ function bubbleSort(numArray)
 function bubbleSorta(numArray) 
 {
     
-    for (let i = 0; i < a.length; i++) 
+    for (let i = 0; i < b.length; i++) 
     {
-     for (let k = i+1; k < a.length; k++) 
+     for (let k = i+1; k < b.length; k++) 
         {
         let n
-        if (a[k]<a[i]) 
+        if (b[k]<b[i]) 
              {
-              n=a[k]   
-              a[k]=a[i]
-              a[i]= n     
+              n=b[k]   
+              b[k]=b[i]
+              b[i]= n     
              } 
         
         }  
@@ -44,8 +45,8 @@ function bubbleSorta(numArray)
    bubbleSort(a)
    console.log(a);
 //Ascending 
-  bubbleSorta(a)
-    console.log(a);
+  bubbleSorta(b)
+    console.log(b);
     
    
     
