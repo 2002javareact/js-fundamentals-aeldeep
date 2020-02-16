@@ -10,4 +10,16 @@ function objectProperties(name,age,location,favColor)
 }
 let person = new objectProperties("ahmed",31,"astoria","blue")
 console.log(`The Name is   : ${person.name} \nThe Age       : ${person.age}\nThe Location  : ${person.location}\nThe Color     : ${person.favColor}`);
- 
+
+
+function objectPropertie(someObj)
+{
+    let value
+    for ( const name in someObj) 
+    {
+        value= someObj[name]
+      console.log(`==>${name}  : ${value}`);
+
+    }
+}
+ objectPropertie(person)
